@@ -31,7 +31,6 @@ header {
     top: 8px;
     left: 50px;
     display: inline;
-
 }
 
 #nav {
@@ -353,37 +352,43 @@ header {
 
 /* RESERVATION FORM */
 
-/* what is the color of the background? */
 #reservation-form {
     border-collapse: separate;
     border-spacing: 5px;
     margin: auto;
     height: 370px;
     width: 87% ;
-    text-align: center;
     table-layout: fixed;
 }
 
 #reservation-form td {
     color:#19100F;
-    background-color: gainsboro;
+    background-color: #f2f2f2;
     font-size: 10px;
     font-weight: 900;
-    vertical-align: text-top;
+    vertical-align: top;
+    padding: 15;
 }
 
-#reservation-form label {
-    float: left;
-    margin-left: 17px;
+.reservation-form-lable-center {
+    text-align: center;
 }
 
-/* how to erase the border of the form */
+input, textarea, select {
+    padding: 5;
+    border: none;
+    color: gray;
+    font-size: 10px;
+}
+
+#radio {
+    text-align: center;
+}
+
 .reservation-form-box {
-    width: 90%;
-    /* text-decoration: none; */
+    width: 100%;
 }
 
-/* what is :: stand for? */
 input::placeholder {
     font-size: 10px;
 }
@@ -394,10 +399,16 @@ input::placeholder {
     font-weight: bolder;
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
+    text-align: center;
 }
 
-#reservation-form td img {
-    height: 18px;
+#payment-image {
+    text-align: center;
+}
+
+#payment-image img{
+    height: 15px;
+    
 }
 
 #button-for-send {
@@ -405,7 +416,7 @@ input::placeholder {
     background-color:#c7a17a ;
     font-size: 10px;
     font-weight: 600;
-    width: 90%;
+    width: 100%;
     height: 25px;
     text-decoration: none;
     position: relative;
@@ -422,20 +433,19 @@ input::placeholder {
 #footer-1 {
     background-image: url(images/footer-img_720.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    background-position:fixed;
-    height: 150px;
-    table-layout: fixed;
+    /* background-position:fixed; */
+    height: 200px;
 }
 
 #footer-1-table {
-    width: 87%;
-    margin: auto;
+    width: 100%;
+    margin: 20px;
+    padding: 30px 0;
 }
 
 #footer-1-table th {
-    border: red solid;
     color: white;
     font-size: 13px;
     font-weight: bolder;
@@ -443,19 +453,7 @@ input::placeholder {
     font-weight: 900;
 }
 
-#footer-1-table td {
-    /* border: red solid; */
-    /* background-color: blueviolet; */
-}
-
 #footer-1-table thead {
-    /* color: white;
-    font-size: 13px;
-    font-weight: bolder;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 900; */
-    position: relative;
-    top: 25px;
     text-align: left;
 }
 
@@ -468,13 +466,11 @@ input::placeholder {
 }
 
 #footer-1-table-topic{
-color: white;
+    color: white;
     font-size: 13px;
     font-weight: bolder;
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
-    position: relative;
-    top: 25px;
     text-align: left;
 }
 
@@ -513,39 +509,69 @@ color: white;
     font-family: 'Raleway', sans-serif;  
 }
 
-/* FOOTER-2 */
-
-#footer-2 img{
-    width: 10px;
-    height: 10px;
+#search {
+    margin-top: 10px;
 }
 
-#seach_container {
+#search_container {
     color: #19100F;
-    font-size: 10px;
+    font-size: 7px;
     font-weight: 600;
-    /* width: 60; */
-    /* height: 25px; */
+    width: 100px;
+    height: 25px;
     text-decoration: none;
-    /* position: relative;
-    text-align: center; */
     border: none;
-    line-height: 0;
-
+    margin: 0;
+    padding: 8px;
 }
 
 #button-for-search {
     color: #19100F;
-    background-color:#c7a17a ;
-    font-size: 10px;
+    background-color:#c7a17a;
+    font-size: 7px;
     font-weight: 600;
-    width: 25%;
-    height: 25px;
+    width: 20%;
+    height: auto;
     text-decoration: none;
-    position: relative;
     border: none;
-    line-height: 0;
+    margin: 0;
+    padding: 0;
 }
+
+
+/* FOOTER-2 */
+
+#footer-2 table {
+    width: 100%;
+}
+
+#footer-2 img{
+    width: 15px;
+    height: 15px;
+}
+
+#footer-2 {
+    height: 40px;
+    background-color: #19100F;
+}
+
+#footer-2 td {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+#coffeebean-2 {
+    color: #96746b;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 8px;
+    left: 50px;
+    display: inline;
+
+}
+
 /* 
 #96746b Fresh taste
 #312a26 View Products
