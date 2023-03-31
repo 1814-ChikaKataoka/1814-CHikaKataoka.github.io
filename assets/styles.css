@@ -1,0 +1,41 @@
+a{
+    color:blue;
+}
+
+h3{
+    color:palevioletred;
+}
+
+h1{
+    color:red;
+}
+
+h6{
+    color: white;
+}
+
+p{
+    color:purple;
+}
+
+.inline{
+    color:pink;
+    font-size:30;
+    text-shadow: 5px 5px 5px black;
+}
+
+#block{
+    font-size: 40;
+}
+
+.headings{
+    font-size: 15;
+}
+
+#headings{
+    font-size: 60;
+}
+
+body .container p #green{
+    color:palegreen;
+}

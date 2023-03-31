@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/* download the font from Google Fonts */
+
+body {
+    margin: 0;
+}
+
+/* Typography.html */
+
+#paragraph {
+    /* color: salmon; */
+    /* color: rgb(250,128,114); */
+    /* color: #fa8072; */
+    /* opacity: 0.8; */
+    color: rgba(250, 128, 114, 0.8);
+    /* font-family:'Courier New', Courier, monospace; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 45px;
+    /* 45pxのpxなくてもOK */
+    font-weight: lighter;
+    font-style: italic;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    /* text-align: right; */
+    /* text-align: center; */
+    text-align: left;
+    text-shadow: 3px 2px 2px #000;
+    text-indent: 100px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+
+a {
+    text-decoration: none;
+    /* text-align: right; */
+    /* inline element nのタグは適用できない */
+}
+
+
+
+/* lists.html */
+ol {
+    /* list-style-position: outside ; */
+    /* list-style: upper-alpha; */
+    list-style: upper-alpha outside;
+    /* まとめることができる */
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+#parent-list {
+    list-style-position: inside;
+}
+
+#nested {
+    list-style-position: outside;
+}
+
+
+/* images.html */
+#cat-picture {
+     width: 400px;
+     height: 300px;
+     border: black dotted thick
+     ;
+}
+
+#banner {
+    color: gold;
+    
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    text-shadow: 2px 3px 3px white;
+
+    background-image: url(cat.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top center;
+    background-attachment: fixed;
+    /* shorthand bg
+    background: black url(cat.png) no-repeat fixed top center; */
+
+    background-size: 200px 200px;
+    /* shorthand bg できない */
+}
+
+
+/* tables.html */
+#users {
+    border-color: #000;
+    border-style: solid;
+    border-width: medium;
+    width: 100%;
+    height: 200px;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px 30px;
+}
+
+#users th {
+    border-color: blueviolet;
+    border-style: solid;
+    text-align: left;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#users td {
+    border-color: palevioletred;
+    border-style: solid;
+    text-align: center;
+}
+
+/* box.html */
+#box {
+    background-color: black;
+    width: 200px;
+    /* width: 200px;
+    height: 200px; */
+    border:yellow solid 10px;
+    /* display: inline; */
+
+    /* margin: 20px 50px 30px 40px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* float: left; */
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    /* bottomとrightはいらん */
+
+    margin: 20px;
+
+    /* padding: 20px 40px 50px 10px; */
+    padding-top: 40px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 5px black;
+}   
+
+#content {
+    background-color: crimson;
+}
+
+#inline-element {
+    background-color: blue;
+    display: inline;
+}
+
+#first {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    z-index: 2
+    ;
+
+}
+
+#second {
+    background-color:aqua;
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+
+}

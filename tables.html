@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>
+            HTML Tables
+        </title>
+
+        <link rel="stylesheet" href="assets/styles_2.css">
+    </head>
+
+    <body>
+
+        <!-- assignments -->
+        <table border="1">
+            <thead>
+                <th colspan="2">Enter your informations</th>
+            </thead>
+
+            <tbody>
+                <form action="process.html" method="post"></form>
+                <!-- where should i put the form element? -->
+                
+                <tr>
+                    <td>
+                        <label for="full_name">
+                            Full Name
+                        </label>
+                        <input type="text" name="full_name">
+                    </td>
+
+                    <td>
+                        <label for="age">
+                            Age
+                        </label>
+                        <input type="number" name="age">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="bday">
+                            Birthday
+                        </label>
+                        <input type="date" name="bday">
+                    </td>
+
+                    <td>
+                        <label for="comment">
+                            What is your hobby?
+                        </label>
+                        <textarea name="comment"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Tell us your gender.</p>
+                        <input type="radio" name="source" id="male" value="male">
+                        <label for="male">
+                            Male
+                        </label>
+
+                        <input type="radio" name="source" id="female" value="female" >
+                        <label for="female">
+                            Female
+                        </label>
+                    
+                        <input type="radio" name="source" id="others" value="others">
+                        <label for="others">
+                            Others
+                        </label>
+                    </td>
+
+                    <td>
+                        <label for="email">
+                            Email Address
+                        </label>
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                </forms>
+            </tbody>
+
+        </table>
+
+
+        <br>
+
+
+       <!-- lesson -->
+
+       <table  id="users">
+        <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th colspan="2">Email&Phone Numbers</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ero</td>
+                <td>28</td>
+                <td></td>
+                <td rowspan="4">0000000</td>
+            </tr>
+
+            <tr>
+                <td>Katsue</td>
+                <td>36</td>
+                <td>katsue@email.com</td>
+            </tr>
+
+            <tr>
+                <td>Nana</td>
+                <td></td>
+                <td>nana@email.com</td>
+            </tr>
+
+            <tr>
+                <td>Chika</td>
+                <td>27</td>
+                <td>chika@email.com</td>  
+            </tr>
+
+        </tbody>
+       </table>
+    </body>
+</html>

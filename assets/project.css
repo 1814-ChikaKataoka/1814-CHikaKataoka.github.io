@@ -1,0 +1,553 @@
+/* Font Families
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; What happend here */
+
+/* Colors
+#96746b Fresh taste
+#312a26 View Products
+#c7a17a
+#19100F*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 760px;
+}
+
+/* HEADER */
+
+header {
+    height: 40px;
+}
+
+#coffee-bean {
+    color: #96746b;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 8px;
+    left: 50px;
+    display: inline;
+
+}
+
+#nav {
+    font-size: 1px;
+    font-weight: bolder;
+    text-align: right;
+    position: relative;
+    top: 13px;
+    right: 50px;
+    float: right;
+}
+
+#nav a {
+    color: #19100F;
+    text-decoration: none;
+}
+
+/* BANNER */
+
+#banner {
+    background-image: url(images/banner-bg_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position:fixed;
+    height: 330px;
+}
+
+#banner-title-1 {
+    color: #c7a17a;
+    font-size: 33px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+
+#banner-title-2 {
+    color: #96746b;
+    font-size: 33px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+
+#banner-subtitle {
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+
+#button-for-learnmore {
+    color: white;
+    background-color:#312a26 ;
+    font-size: 10px;
+    height: 30px;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    top: 125px;
+    border: none;
+}
+
+
+/* SECTION-1 */
+
+#section-1 {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 30px;
+}
+
+#seosonalcoffee-flavors {
+    background-image: url(images/ads-img1_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 26 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-left: 25px;
+}
+
+#coffeebundle-packeges {
+    background-image: url(images/ads-img2_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 30 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-right: 35px;
+
+}
+
+.readmore {
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+
+/* MARCHANDISE */
+
+.fontfamily-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color:#c7a17a;
+    font-weight: 500;
+    font-style:oblique;
+    text-align: center;
+}
+
+.underlined-topic {
+    color :#19100F;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-decoration: underline #c7a17a;
+    text-align: center;
+}
+
+
+#marchandise-table {
+    margin: 10px auto;
+    width: 87%;
+    border-spacing: 5;
+}
+
+#marchandise-table img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.marchandise-name {
+    color :#19100F;
+    font-size:12;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+
+}
+
+.marchandise-price {
+    color :#19100F;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* SECTION-3 */
+
+#section-3 {
+    background-image: url(images/discount-img_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position:fixed;
+    margin: auto;
+    width: 650px;
+    height: 210px;
+}
+
+#fontfamily-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color:white;
+    font-weight: 100;
+    font-style:oblique;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+#members-discounts {
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+#button-for-viewproducts {
+    color: #19100F;
+    background-color:white ;
+    font-size: 10px;
+    font-weight: 600;
+    height: 30px;
+    opacity: 0.5;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    left: 290;
+    border: none;
+    margin-top: 10;
+}
+
+
+/* MARCHANDISE-SALE */
+
+#marchandise-sale-table {
+    margin: 10px auto;
+    width: 87%;
+    border-spacing: 5;
+}
+
+#marchandise-sale-table img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+
+/* SECTION-4 */
+
+
+#section-4 {
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 30px;
+}
+
+#coffeebean-varieties {
+    background-image: url(images/ads-img3_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 26 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-left: 25px;
+}
+
+#our-baristas-favorite {
+    background-image: url(images/ads-img4_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 30 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-right: 35px;
+}
+
+#the-coffee-best-sellers {
+    background-image: url(images/ads-img5_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 26 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-left: 25px;
+}
+
+#more-than-just-the-coffee {
+    background-image: url(images/ads-img6_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50 30 60 30;
+    height: 70px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-shadow:  3px 3px 7px #19100F;
+    margin-right: 35px;
+}
+
+
+/* RESERVATION FORM */
+
+/* what is the color of the background? */
+#reservation-form {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: auto;
+    height: 370px;
+    width: 87% ;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#reservation-form td {
+    color:#19100F;
+    background-color: gainsboro;
+    font-size: 10px;
+    font-weight: 900;
+    vertical-align: text-top;
+}
+
+#reservation-form label {
+    float: left;
+    margin-left: 17px;
+}
+
+/* how to erase the border of the form */
+.reservation-form-box {
+    width: 90%;
+    /* text-decoration: none; */
+}
+
+/* what is :: stand for? */
+input::placeholder {
+    font-size: 10px;
+}
+
+#payment {
+    color :#19100F;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+#reservation-form td img {
+    height: 18px;
+}
+
+#button-for-send {
+    color: #19100F;
+    background-color:#c7a17a ;
+    font-size: 10px;
+    font-weight: 600;
+    width: 90%;
+    height: 25px;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    border: none;
+    line-height: 0;
+}
+
+/* how toremove the radio button and checkbox to the left? */
+
+
+/* FOOTER-1 */
+
+#footer-1 {
+    background-image: url(images/footer-img_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position:fixed;
+    height: 150px;
+    table-layout: fixed;
+}
+
+#footer-1-table {
+    width: 87%;
+    margin: auto;
+}
+
+#footer-1-table th {
+    border: red solid;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+#footer-1-table td {
+    /* border: red solid; */
+    /* background-color: blueviolet; */
+}
+
+#footer-1-table thead {
+    /* color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900; */
+    position: relative;
+    top: 25px;
+    text-align: left;
+}
+
+.footer-topic {
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#footer-1-table-topic{
+color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 25px;
+    text-align: left;
+}
+
+.footer-openinghours-topic {
+    color: white;
+    font-size: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#footer-day {
+    color: white;
+    font-size: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#footer-time {
+    color: white;
+    font-size: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.footer-brown {
+    color: #c7a17a;
+    font-size: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;  
+}
+
+/* FOOTER-2 */
+
+#footer-2 img{
+    width: 10px;
+    height: 10px;
+}
+
+#seach_container {
+    color: #19100F;
+    font-size: 10px;
+    font-weight: 600;
+    /* width: 60; */
+    /* height: 25px; */
+    text-decoration: none;
+    /* position: relative;
+    text-align: center; */
+    border: none;
+    line-height: 0;
+
+}
+
+#button-for-search {
+    color: #19100F;
+    background-color:#c7a17a ;
+    font-size: 10px;
+    font-weight: 600;
+    width: 25%;
+    height: 25px;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    line-height: 0;
+}
+/* 
+#96746b Fresh taste
+#312a26 View Products
+#c7a17a
+#19100F */
